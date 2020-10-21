@@ -14,6 +14,10 @@
     "watch": "npx lerna run watch --parallel",
     "test": "npx lerna run test",
     "frontend": "cd packages/buidler-demo/frontend&& yarn start",
-    "publish" : "npx lerna run build && npx lerna publish"
+    "publish": "npx lerna run build && npx lerna publish"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "bcryptjs": "^2.4.3"
   }
 }
